@@ -1,6 +1,7 @@
 .app {
   display: flex;
   padding: 30px;
+  justify-content: center;
 }
 
 .game {
@@ -13,4 +14,18 @@
 .game img {
   width: 70px;
   height: 70px;
+  transition: all 300ms ease-in-out;
+}
+
+.score-board  {
+  font-size: 42px;
+  position: absolute;
+  right: 20px;
+  top: 0;
+  text-align: center;
+}
+
+.score-board h2 {
+  margin: 0;
+  
 }
